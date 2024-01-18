@@ -1,6 +1,8 @@
+import styles from './postpage.module.css'
+
 const Posts = () =>  {
     return (
-        <div>Post Page </div>
+        <div className={styles.bgRed}>Post Page </div>
     )
 }
 
