@@ -1,4 +1,4 @@
-'use client'
+import ViewUserButton from '../component/clientside'
 
 import styles from './postpage.module.css'
 
@@ -7,7 +7,7 @@ const Posts = () =>  {
 
         <>
          <div className={styles.bgRed}>Post Page </div>
-         <button onClick={() => console.log('Lihat User')}>Lihat user</button>
+         <ViewUserButton />
         </>
        
         )
